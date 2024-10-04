@@ -29,7 +29,7 @@ div.navBar a:hover {
 }
 
 header.homeHeader {
-    background-color: rgb(18, 37, 77);
+    background-color: rgb(48, 66, 104);
     margin-top: 50px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -38,11 +38,19 @@ header.homeHeader {
 
 .homeHeader img {
     width: 100%;
+    margin-bottom: -4px;
 }
 
 section {
     background-color: rgb(48, 66, 104);
     padding: 16px;
+    margin: -4px 0px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    margin: 8px;
 }
 
 p.statement {
@@ -56,6 +64,7 @@ p.statement {
 section.soloProjectStatement {
     text-align: center;
     line-height: 2.0;
+    margin: inherit;
     padding: 64px 0px;
 }
 
