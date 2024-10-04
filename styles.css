@@ -6,25 +6,6 @@ body {
     padding: 0;
 }
 
-header.homeHeader {
-    background-color: rgb(18, 37, 77);
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-}
-
-.homeHeader img {
-    width: 100%;
-}
-
-section {
-    background-color: rgb(48, 66, 104);
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-}
-
 div.navBar {
     position: fixed;
     top: 0;
@@ -45,6 +26,32 @@ div.navBar a {
 
 div.navBar a:hover {
     background-color: rgb(10, 19, 40);
+}
+
+header.homeHeader {
+    background-color: rgb(18, 37, 77);
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.homeHeader img {
+    width: 100%;
+}
+
+section {
+    background-color: rgb(48, 66, 104);
+    padding: 16px;
+}
+
+p.statement {
+    margin: 0px;
+    padding: 0px;
+}
+
+section.soloProjectStatement {
+    text-align: center;
 }
 
 footer {
