@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(9, 19, 40);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: rgb(231, 231, 231);
+}
+
+.button {
+    border-radius: 4px;
+}
