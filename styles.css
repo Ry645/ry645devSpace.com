@@ -71,4 +71,16 @@ section.soloProjectStatement {
 footer {
     background-color: rgb(7, 9, 13);
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
 }
+
+footer a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
